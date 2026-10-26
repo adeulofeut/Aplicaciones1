@@ -1,0 +1,51 @@
+/* Estilos propios; Dash carga automáticamente los archivos de assets/. */
+body {
+    background-color: #F3F6FA;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.encabezado {
+    background-color: #1F4E79;
+    color: white;
+    padding: 24px 28px 16px;
+    margin: 0 -12px 24px;
+}
+
+.encabezado h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.encabezado p {
+    margin-bottom: 0;
+    opacity: 0.85;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(31, 42, 68, 0.12);
+}
+
+.indicador-titulo {
+    color: #6C757D;
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+}
+
+.indicador-valor {
+    color: #1F4E79;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.titulo-tabla {
+    color: #1F2A44;
+    font-weight: 600;
+}
+
+.pie-pagina {
+    color: #6C757D;
+    font-size: 0.85rem;
+    padding: 8px 0 24px;
+}

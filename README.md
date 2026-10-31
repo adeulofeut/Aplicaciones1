@@ -1,7 +1,8 @@
 # Mortalidad en Colombia, 2019 — aplicación web interactiva
 
-**Aplicación desplegada:** [COMPLETAR: URL de Render]
-**Integrantes:** Ronald Andres Garcia Diaz · Juan Camilo Narváez Sánchez · Adrián Felipe Deulofeut Gil
+**Aplicación desplegada:** https://mortalidad-colombia-2019-r5lt.onrender.com/  
+**Repositorio:** https://github.com/adeulofeut/Aplicaciones1
+**Integrantes:** Ronald Andres Garcia Diaz · Juan Camilo Narváez Sánchez · Adrián Felipe Deulofeut Gil  
 Aplicaciones 1 (SMTART84, Grupo 2) · Maestría en Inteligencia Artificial · Universidad de La Salle · 2026-2
 
 ## Introducción del proyecto
@@ -52,8 +53,8 @@ Python, Dash, Plotly, Dash Bootstrap Components, pandas, Gunicorn, Visual Studio
 
 ## Instalación
 ```bash
-git clone [COMPLETAR: URL del repositorio]
-cd mortalidad-colombia-2019
+git clone https://github.com/adeulofeut/Aplicaciones1.git
+cd Aplicaciones1
 python -m venv .venv
 .venv\Scripts\activate          # Windows  (Linux/macOS: source .venv/bin/activate)
 pip install -r requirements.txt
@@ -79,36 +80,42 @@ Con todos los filtros en «Todos» cada gráfico muestra exactamente lo que pide
 
 ### Mapa: muertes por departamento
 ![Mapa](capturas/02_mapa.png)
+Datos: Bogotá D.C. (38.760; 15,9 %), Antioquia (34.473; 14,1 %) y Valle del Cauca (28.443; 11,6 %) concentran el 41,6 % de las muertes; las menores cifras están en Vichada (188), Guainía (115) y Vaupés (87).
 [COMPLETAR GRUPO: interpretación]
 
 ### Gráfico de líneas: muertes por mes
 ![Líneas](capturas/03_meses.png)
+Datos: el mes con más muertes es diciembre (21.678) y el de menos, febrero (17.974).
 [COMPLETAR GRUPO: interpretación]
 
 ### Gráfico de barras: 5 ciudades más violentas
 ![Ciudades violentas](capturas/04_violentas.png)
-Datos: Santiago de Cali (971), Bogotá D.C. (601), Medellín (428), Barranquilla (260) y San José de Cúcuta (206).
+Datos: Santiago de Cali (971), Bogotá D.C. (601), Medellín (428), Barranquilla (260) y San José de Cúcuta (206). En todo el país, el 93,5 % de las víctimas de X95 son hombres y el 72,7 % están entre la juventud y la adultez temprana (20 a 44 años).
 [COMPLETAR GRUPO: interpretación]
 
 ### Gráfico circular: 10 ciudades con menor mortalidad
 ![Menor mortalidad](capturas/05_menor.png)
+Datos: los 10 municipios mostrados registran una sola muerte cada uno (13 municipios empatan con 1).
 [COMPLETAR GRUPO: interpretación]
 
 ### Tabla: 10 principales causas de muerte
 ![Causas](capturas/06_causas.png)
-Primera causa: infarto agudo del miocardio (I219), 35.088 casos.
+Primera causa: infarto agudo del miocardio (I219), 35.088 casos. Las 10 causas suman el 32,3 % de todas las muertes; la única violenta del listado es X954 (agresión con arma de fuego en calles y carreteras, 4.396).
 [COMPLETAR GRUPO: interpretación]
 
 ### Barras apiladas: muertes por sexo en cada departamento
 ![Sexo](capturas/07_sexo.png)
+Datos: hombres 134.573 (55,1 %), mujeres 109.689 (44,9 %), sexo indeterminado 93.
 [COMPLETAR GRUPO: interpretación]
 
 ### Histograma: muertes por grupo de edad
 ![Edad](capturas/08_edad.png)
+Datos: vejez (60 a 84 años) reúne el 47,2 % de las muertes (115.453) y longevidad (85 años o más) el 22,9 % (56.061); la mortalidad neonatal suma 4.520 casos (1,8 %).
 [COMPLETAR GRUPO: interpretación]
 
 ### Interactividad
 ![Filtros aplicados](capturas/09_filtros.png)
+Ejemplo de la captura: Valle del Cauca + Hombre → 15.820 muertes y 1.752 homicidios X95, de los cuales 921 ocurrieron en Santiago de Cali; el mapa resalta el departamento elegido.
 [COMPLETAR GRUPO: ejemplo de un hallazgo al filtrar, p. ej. un departamento y un sexo]
 
 ## Conclusiones

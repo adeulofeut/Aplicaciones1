@@ -13,6 +13,9 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY],
            title="Mortalidad en Colombia 2019")
 server = app.server  # lo usa gunicorn en el despliegue
 
+# Integrantes del grupo (se muestran en el pie de página).
+AUTORES = ["Adrian Felipe Deulofeut Gil"]
+
 
 def tarjeta_indicador(identificador, titulo):
     """Tarjeta con una cifra resumen que se actualiza con los filtros."""
@@ -81,8 +84,12 @@ app.layout = dbc.Container([
     dbc.Row([tabla_causas]),
     dbc.Row([tarjeta_grafico("grafico-sexo", 12)]),
     dbc.Row([tarjeta_grafico("grafico-edad", 12)]),
-    html.Footer("Fuente: DANE, Estadísticas Vitales (EEVV) 2019 — defunciones no fetales.",
-                className="pie-pagina"),
+    html.Footer([
+        html.P("Fuente: DANE, Estadísticas Vitales (EEVV) 2019 — defunciones no fetales.",
+               className="mb-1"),
+        html.P(f"Autores: {', '.join(AUTORES)} · Aplicaciones 1 (SMTART84, Grupo 2) · "
+               "Maestría en Inteligencia Artificial, Universidad de La Salle", className="mb-0"),
+    ], className="pie-pagina"),
 ], fluid=True)
 
 

@@ -1,7 +1,7 @@
 # Mortalidad en Colombia, 2019 — aplicación web interactiva
 
 **Aplicación desplegada:** [COMPLETAR: URL de Render]
-**Integrantes:** Adrian Felipe Deulofeut Gil [COMPLETAR: demás integrantes]
+**Integrantes:** Ronald Andres Garcia Diaz · Juan Camilo Narváez Sánchez · Adrián Felipe Deulofeut Gil
 Aplicaciones 1 (SMTART84, Grupo 2) · Maestría en Inteligencia Artificial · Universidad de La Salle · 2026-2
 
 ## Introducción del proyecto

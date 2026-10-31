@@ -14,7 +14,8 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY],
 server = app.server  # lo usa gunicorn en el despliegue
 
 # Integrantes del grupo (se muestran en el pie de página).
-AUTORES = ["Adrian Felipe Deulofeut Gil"]
+AUTORES = ["Ronald Andres Garcia Diaz", "Juan Camilo Narváez Sánchez",
+           "Adrián Felipe Deulofeut Gil"]
 
 
 def tarjeta_indicador(identificador, titulo):
